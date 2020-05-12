@@ -7,7 +7,7 @@ import {borrarPost} from '../actions/productosActions'
 
  class Producto extends Component {
 
-//pepito
+
     eliminarProducto = () =>{
         this.props.borrarPost(this.props.info.id)
     }
